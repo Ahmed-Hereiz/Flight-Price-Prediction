@@ -24,8 +24,8 @@
 > - I removed the only row with Nan values and I removed duplicates.
 
 ## Third data visualizing :
-<br><br>
-## I visualized categoral data using barplots and violinplots and that gave me insights which are : 
+
+## I visualized categoral data using barplots and violinplots and that gave me insights : 
 
 > - Using Google search I now knew that all this cities are in india <br><br>
 > - Jet Airways Buisiness has the highest average price and highest deviation (from 45k to 80k) <br><br>
@@ -40,5 +40,12 @@
 <br><br>
 
 ## I visualized quantitative data using regression plots and that gave me insights which are : 
-#### data won't have a strong linear correlation... also I can't see there is other obvious polynomial correlations and there is no curves to fit such shapes (So I think Linear regression will be a bad choice Model)
+##### data won't have a strong linear correlation... also I can't see there is other obvious polynomial correlations and there is no curves to fit such shapes (So I think Linear regression will be a bad choice Model)
 
+## Fourth The Machine Learning Dummy Model : 
+
+#### Knowing that the Linear regression will be a bod choice algoithm, I used it as my baseline model <br> Where it should be my min. accuracy
+
+## Fifth Training The Model :
+
+##### I trained model pipeline containing model algorithms then I choosed the best accuracy <br> At the end I used RandomForest as my algorithm and that made me get 700 mae score on Kaggle
